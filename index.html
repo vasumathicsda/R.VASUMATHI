@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Dr. Sarah Lee | Psychologist</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      background-color: #f4f6f8;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background-color: #5c6bc0;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 40px 0;
+
+    }
+
+    section {
+
+      background-color: white;
+
+      margin: 20px;
+
+      padding: 20px;
+
+      border-radius: 8px;
+
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    }
+
+    h2 {
+
+      color: #3f51b5;
+
+    }
+
+    ul {
+
+      padding-left: 20px;
+
+    }
+
+    form input, form textarea, form button {
+
+      width: 100%;
+
+      padding: 10px;
+
+      margin-top: 10px;
+
+      margin-bottom: 15px;
+
+      border: 1px solid #ccc;
+
+      border-radius: 5px;
+
+    }
+
+    form button {
+
+      background-color: #3f51b5;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+    }
+
+    form button:hover {
+
+      background-color: #303f9f;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      padding: 15px;
+
+      background-color: #5c6bc0;
+
+      color: white;
+
+      margin-top: 30px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Dr. R.Vasumathi</h1>
+
+    <p>Licensed Clinical Psychologist</p>
+
+  </header>
+
+  <section>
+
+    <h2>About Me</h2>
+
+    <p>I am a clinical psychologist with over 12 years of experience in mental health counseling, cognitive behavioral therapy, and family therapy. I am passionate about helping individuals improve their emotional well-being and lead fulfilling lives.</p>
+
+  </section>
+
+  <section>
+
+    <h2>Areas of Expertise</h2>
+
+    <ul>
+
+      <li>Anxiety and Depression</li>
+
+      <li>Stress Management</li>
+
+      <li>Child & Adolescent Therapy</li>
+
+      <li>Relationship Counseling</li>
+
+    </ul>
+
+  </section>
+
+  <section>
+
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+      <input type="text" placeholder="Your Name" required />
+
+      <input type="email" placeholder="Your Email" required />
+
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+  </section>
+
+  <footer>
+
+    &copy; 2025 Dr. Sarah Lee. All Rights Reserved.
+
+  </footer>
+
+  <script>
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+
+      e.preventDefault();
+
+      alert("Thank you for reaching out! I will contact you soon.");
+
+      this.reset();
+
+    });
+
+  </script>
+
+</body>
+
+</html>
